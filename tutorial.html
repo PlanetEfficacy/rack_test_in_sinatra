@@ -151,7 +151,7 @@
 
       <h3>Database Cleaner</h3>
 
-      <p>If we read the failure message, we see that we expected there to be a single genre saved to the database, but for some reason there are now two. We migh want to consider not allowing genres to be created with duplicate names, but the bigger issue at this moment is that subsequent runs of our test suite don't seem to be starting with a fresh slate.</p>
+      <p>If we read the failure message, we see that we expected there to be a single genre saved to the database, but for some reason there are now two. We might want to consider not allowing genres to be created with duplicate names, but the bigger issue at this moment is that subsequent runs of our test suite don't seem to be starting with a fresh slate.</p>
 
       <p>This is a big issue. We might not even be able to tell if we break something if in the future our test is based on data created in earlier runs of our suite. We want to make sure that each time we run our test suite we are starting with a clean database and the items that are in the database are items we added in this round of testing.</p>
 
